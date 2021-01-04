@@ -1,10 +1,10 @@
 nginx-rtmp-win64
 ================
 
-* Nginx: 1.19.5
+* Nginx: 1.19.6
 * Nginx-Rtmp-Module: 1.2.1
 * Nginx-Rtmpt-Proxy-Module: commit 5f3bb0c
-* openssl-1.1.1.h
+* openssl-1.1.1i
 * pcre-8.44
 * zlib-1.2.11
 
@@ -50,11 +50,11 @@ configure arguments:
 --with-http_ssl_module \
 --with-mail_ssl_module \
 --with-stream_ssl_module \
---with-openssl=objs/lib/openssl-1.1.1h --with-openssl-opt=no-asm \
+--with-openssl=objs/lib/openssl-1.1.1i --with-openssl-opt=no-asm \
 --with-pcre=objs/lib/pcre-8.44 \
 --with-zlib=objs/lib/zlib-1.2.11 \
 --add-module=objs/lib/nginx-rtmp-module \
---add-module=objs/lib/nginx-rtmpt-proxy-module \
+--add-module=objs/lib/nginx-rtmpt-proxy-module
 ```
 
 # Instructions
