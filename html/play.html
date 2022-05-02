@@ -8,8 +8,8 @@
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.11.0/videojs-contrib-hls.min.js"></script>
 </head>
 <body>
-<video id="player" class="video-js vjs-default-skin" height="360" width="640" controls autoplay preload="none">
-    <source src="http://localhost:8080/hls/boo/" type="application/x-mpegURL" />
+<video id="player" class="video-js vjs-default-skin" height="360" width="640" controls preload="none">
+    <source src="hls/boo/" type="application/x-mpegURL" />
 </video>
 <script>
     var player = videojs('#player');
