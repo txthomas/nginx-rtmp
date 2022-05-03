@@ -10,7 +10,7 @@ nginx-rtmp-win64
 
 # configure arguments
 ```
-nginx version: nginx/1.21.5
+nginx version: nginx/1.21.6
 built by cl 19.29.30143 for x64
 
 TLS SNI support enabled
